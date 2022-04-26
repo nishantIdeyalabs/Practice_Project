@@ -24,7 +24,12 @@ function CreatePlayer() {
     // });
   });
   //   console.log(data);
-  return <div>Create Player</div>;
+  return (
+    <div>
+      Create Player
+      <p>hii</p>
+    </div>
+  );
 }
 
 export default CreatePlayer;
