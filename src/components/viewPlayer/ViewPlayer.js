@@ -9,7 +9,12 @@ function ViewPlayer(props) {
       console.log(res);
     });
   });
-  return <div>Nishant Sahoo</div>;
+  return (
+    <>
+      <div>Nishant Sahoo</div>
+      <div>give the Task</div>
+    </>
+  );
 }
 
 export default ViewPlayer;
